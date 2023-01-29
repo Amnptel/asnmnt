@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<head>
+   
+    <body>
+    <center><img src=" logo.png" height="100" width="200" ></center>
+
+    <p><h1><b>HTML Elements</b></h1>
+    <fieldset>
+        <a href="home" >Home</a>&nbsp;&nbsp;&nbsp;
+        <a href="Header">Header</a>&nbsp;&nbsp;&nbsp;
+        <a href="table">Table</a>&nbsp;&nbsp;&nbsp;
+        <a href="list">List</a>&nbsp;&nbsp;&nbsp;
+        <a href="text fromat">Text Formats</a>&nbsp;&nbsp;&nbsp;
+        <a href="Blockquotes">Blockquotes</a>
+    </fieldset><br></p>
+
+   <p>Pay attention to h1 tag inside section element. Font-size for h1 is the same as font-size for h2, because we have to use only one h1 on<br>
+     the page, and it is commonly used inside header
+     <h2>Header 2</h2>
+     <h3>Header 3</h3>
+     <h4>Header 4</h4>
+     <h5>Header 5</h5>
+     <h6>Header 6</h6></p> 
+
+     <p>Lorem ipsum dolor sit amet, <a href="test">test link</a> adipisicing elit.
+        <strong>This is strong.</strong> Nullam dignissim convallis est. Quisque 
+        aliquam. <em>This is <br>emphasized.</em> Daunec focibus. Nunc iaculis
+        suscipit dui.5<sup>3</sup>=125. Water is H<sub>2</sub>O. Nam sit amen sem.
+        Aliquam libero nisi, imperdiet at, <br>tincudent nec, gravida vehicula,nisl.
+        <cite>The New York Times(That's a citation).</cite> <u>underline.</u>
+        Maecenes ornare tortor.Donec sed tellus<br> eget sapien fringilla nonummy.
+        mauris a ante. Suspendisse quam sem, consequat at, commodo vitae, feugiat in,
+        nunc. Morbi<br>imperdiet augue quis tellus. </p>
+
+    <p><abbr title="HYPER TEXT MARKUP LANGUAGE" >HTML</abbr> and <abbr title="CASCADING STYLE SHEET" >
+    CSS</abbr>are our tools. Mauris a ante.Suspendisse quam sem,consequate at,commodo vitae,feugiat in,nunc.
+    Morbi imperdiate<br> augue quis tellus. Praesent mattis,massa quis luctus fermentum,turpis mi volupat justo,
+    eu volutpat enim diam get metus. To copy <br>a file type COPY <em>filename. </em><s>Dinner's at 5:00</s>.
+    <mark>Let's make that 7:00.</mark> This <s>text</s> has been struck.</p>
+
+    <hr>
+        <h2 id="table">Table</h2>
+        <table border="1" cellspacing="0">
+
+          <tr>
+          <th>Header</th>
+          <th>Header</th>
+          <th>Header</th></tr>
+          <tr>
+          <td>Lviv</td>
+          <td>Kyiv</td>
+          <td>Kharkiv</td>
+          </tr>
+          <tr>
+            <td>Odessa</td>
+            <td>Zhytomyr</td>
+            <td>Dnipropetrovsk</td>
+          </tr>
+          <tr>
+            <td>Sumy</td>
+            <td>Chernivitsi</td>
+            <td>Lutsk</td>
+          </tr>
+        </table>
+
+        <h2 id="list">Unordered List</h2>
+        <ul>
+          <li>List item 1</li>
+          <li>List item 2
+          <ul>
+            <li>Some Nested List item 1</li>
+          </ul></li>
+          <li>List item 3</li>
+          </ul>
+          <br>
+        <h2>Ordered List</h2>
+          <ol>
+            <li>List item 1</li>
+            <li>List item 2
+              <ol type="A">
+                <li>Some nested list item 1</li>
+              </ol></li>
+            <li>List item 3</li>
+          </ol>
+        <h3>Definition List</h3>
+        <dl>
+          <dt>defines terms 1</dt>
+           <dd>description 1</dd>
+           <dt>defines terms 2</dt>
+           <dd>description 2</dd></dl>
+           <label>Details</label>
+            <select>
+              <option value="html">HTML</option>
+              <option value="java">JAVA</option>
+              <option value="css">CSS</option>
+              <option value="php">PHP</option>
+              <option value="js">JavaScript</option>
+            </select>
+            <hr>
+            <h2 id="text-f"> Text Formats</h2>
+          <h3> Article Text</h3>
+         &nbsp; Article Title <br><br>
+        &nbsp;<small> Article discription</small> <br><br>
+        <h3> Performatted Text</h3>
+        <pre style="background-color: lightgray; padding:20px;">
+            <strong>Text</strong>
+             in a <b>pre</b> element
+               is displayed in a fixed-width
+           font, and it preserves
+           both           spaces and
+               line breaks
+                     </pre>
+                     <h3> Code </h3>
+                     <pre style="background-color: lightgray; padding:20px;">
+                     <code>
+               .wrapper {
+                 display: flex;
+                   vertical-align: middle;
+                   justify-content: center;
+                   }
+                     </code>
+                   </pre>
+                   <h2>Blockquote </h2>
+                   <p>
+                     Let's keep it simple. Italics are good to help set it off from the body text. Be sure to style the citation.
+                   </p>
+                   <blockquote id="blckqts"><i>"If you go back a few hundred years, what we take for granted today would seem
+                     like magic-being able to talk to people over long distances, to transmit images, flying, accessing vast 
+                     amounts of data like an oracle. These are all things that would have been considered magic a few hundred 
+                     years ago."<br> <a href="https://twitter.com/elonmusk">Elon Musk</i></a></blockquote>
+                   <hr>
+    <form align = "right">
+       
+     <label >First name:</label>
+    <input type="text" id="firstname" name="firstname"><br>
+     <label>Surname:</label>
+    <input type="text" id="surname" name="surname"><br>
+    <label>Email:</label>
+    <input type="text" id="email" name="email"><br>
+    <textarea rows="10" cols="30" name="comment" form="usrform"></textarea><br>
+    <button name="button">submit</button>
+    <br><br>
+   
+    </form>
+    <footer style="background-color: gray; padding:15px 50px 5px">
+    <center>
+    <pre>
+        ©️ Copyright Epam Systems
+        </pre></center>
+    </footer>
+
+</body>
+
+</html> 
+
+</body>
+</head>
+</html>
